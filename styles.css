@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+:root{
+    --color-minion: #bad9b4;
+    --color-pastel: #f7fccc;
+}
+
+
+body{
+    margin: 0px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--color-pastel);
+}
+
+header{
+    color: white;
+    background-color: var(--color-minion);
+    text-align: center;
+    padding: .3rem;
+    margin-bottom: 1rem;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+textarea{
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 15vh;
+    margin: 3rem auto;
+    padding: .5rem;
+    background-color: var(--color-pastel);
+    border-radius: .4rem;
+}
+
+button{
+    padding: .3rem 1rem;
+    font-size: medium;
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: var(--color-minion);
+    color: white;
+    border: 0;
+    border-radius: .2rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#output{
+    border: 1px solid black;
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    height: 15vh;
+    margin: 3rem auto;
+    padding: .5rem;
+    text-align: left;
+    border-radius: .5rem;
+}
+
+h3{
+    margin: 0rem;
+}
+
+footer p{
+    margin-top: 0rem;
+}
+
+footer{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    background-color: var(--color-minion);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px -3px 8px;
+}
+
+  
